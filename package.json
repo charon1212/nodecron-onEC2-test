@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bs": "tsc && node dict/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/charon1212/nodecron-onEC2-test/issues"
   },
-  "homepage": "https://github.com/charon1212/nodecron-onEC2-test#readme"
+  "homepage": "https://github.com/charon1212/nodecron-onEC2-test#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@types/node-cron": "^3.0.0",
+    "node-cron": "^3.0.0"
+  }
 }
